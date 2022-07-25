@@ -11,5 +11,5 @@
 [开始](zh-cn/简介/1.md)
 [下载]()
 
-![](_media/bg.jpg)
+![](_media/bg.png)
 
