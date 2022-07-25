@@ -4,7 +4,7 @@
 
 # The Colorful City <small>by:SketchFlaMe</small>
 
-> 一款以Minecraft原版为基础制作的综合性原版模组。
+> 一款以Minecraft原版为基础制作的综合性原版服务器。
 
 
 [GitHub](SFM-CC.github.io)
