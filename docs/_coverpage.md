@@ -4,10 +4,9 @@
 
 # The Colorful City <small>by:SketchFlaMe</small>
 
-> 一款以Minecraft原版为基础制作的综合性原版服务器。
+> 一款以原版Minecraft为基础制作的开放世界生存服务器。
 
-
-[GitHub](SFM-CC.github.io)
+[GitHub](https://sfm-cc.github.io/)
 [开始](zh-cn/简介/1.md)
 [下载]()
 
