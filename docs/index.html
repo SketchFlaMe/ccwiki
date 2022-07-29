@@ -9,19 +9,13 @@
 <body>
   <div id="app"></div>
   <script>
-        // Set html "lang" attribute based on URL
-      var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
-
-      if (lang) {
-        document.documentElement.setAttribute('lang', lang[1]);
-      }
     window.$docsify = {
       //...
 	  name: 'SketchFlaMe|The Colourful City',
 	  loadSidebar: true,
 	  subMaxLevel: 3,
 	  loadNavbar: true,
-	  coverpage: ['/', '/zh-cn/', '/en_us/'],
+	  coverpage: true,
 	  onlyCover: true,
 	  notFoundPage: 'my404.md'
     }
