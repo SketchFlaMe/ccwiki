@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
-  <style>
-    body{ font-family:"fz"}
-  </style>
 </head>
 <body>
   <div id="app"></div>
   <script>
+        // Set html "lang" attribute based on URL
+      var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
+
+      if (lang) {
+        document.documentElement.setAttribute('lang', lang[1]);
+      }
     window.$docsify = {
       //...
-	  name: 'SketchFlaMe|The Colorful City',
+	  name: 'SketchFlaMe|The Colourful City',
 	  loadSidebar: true,
 	  subMaxLevel: 3,
 	  loadNavbar: true,
@@ -32,7 +35,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <link rel="stylesheet" href="style.css">
 </body>
+<title>The Colourful City</title>
 <link rel="shortcut icon" href="icon.ico" />
 </html>
