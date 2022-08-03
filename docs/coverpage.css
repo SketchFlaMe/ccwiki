@@ -1,0 +1,71 @@
+
+/* 定义keyframe动画，命名为blink */
+
+@keyframes blink{
+
+0%{opacity: 1;}
+
+50%{opacity: 0;}
+
+100%{opacity: 1;}
+
+}
+
+/* 添加兼容性前缀 */
+
+@-webkit-keyframes blink {
+0%{opacity: 1;}
+
+50%{opacity: 0;}
+
+100%{opacity: 1;}
+
+}
+
+@-moz-keyframes blink {
+0%{opacity: 1;}
+
+50%{opacity: 0;}
+
+100%{opacity: 1;}
+
+}
+
+@-ms-keyframes blink {
+0%{opacity: 1;}
+
+50%{opacity: 0;}
+
+100%{opacity: 1;}
+
+}
+
+@-o-keyframes blink {
+0%{opacity: 1;}
+
+50%{opacity: 0;}
+
+100%{opacity: 1;}
+
+}
+
+/* 定义blink类*/
+
+.blink{
+
+color: yellow;
+white-space:nowrap;
+right:100px;
+animation: blink 1s linear infinite;
+
+/* 其它浏览器兼容性前缀 */
+
+-webkit-animation: blink 1s linear infinite;
+
+-moz-animation: blink 1s linear infinite;
+
+-ms-animation: blink 1s linear infinite;
+
+-o-animation: blink 1s linear infinite;
+
+}

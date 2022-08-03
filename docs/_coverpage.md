@@ -1,10 +1,13 @@
 ﻿<!-- _coverpage.md -->
 
 
+
+
 # ![logo](_media/缤纷生存_中文logo.png ':size=25%') <small><font face="unifont" color=#FFFFFF >by:</font><font face="unifont" color=orange >SketchFlaMe</font></small>
 
 > <font face="unifont" color=#FFFFFF >一款以原版Minecraft为基础制作的开放世界生存服务器。</font>
-- <font face="unifont" color=yellow >Beta1.0第三阶段开工!</font>
+<font face="unifont" size=4><p class="blink">Beta1.0第三阶段开工!</p></font>
+
 
 [<font face="unifont" >开始阅读</font>](zh-cn/简介/1.md)
 [<font face="unifont" >下载资源包</font>](https://pan.baidu.com/s/1NlkSrxo01TwNBVgrCudWxQ?pwd=sfmc)
