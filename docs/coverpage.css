@@ -52,10 +52,13 @@
 /* 定义blink类*/
 
 .blink{
-
 color: yellow;
 white-space:nowrap;
-right:100px;
+transform: rotate(25deg);
+position:absolute;
+right:590px;
+top:0;
+z-index:99999;
 animation: blink 1s linear infinite;
 
 /* 其它浏览器兼容性前缀 */
