@@ -1,0 +1,23 @@
+﻿div#app {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 40vh auto;
+  text-align: center;
+}
+
+
+div#app:empty::before {
+  content: 'Loading...';
+  animation:loading 2s ease infinite;
+
+}
+
+@keyframes loading{
+
+0%{opacity: 1;}
+
+50%{opacity: 0;}
+
+100%{opacity: 1;}
+
+}

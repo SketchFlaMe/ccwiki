@@ -53,6 +53,12 @@
 
 .blink{
 color: yellow;
+white-space:nowrap;
+transform: rotate(25deg);
+position:absolute;
+right:33vw;
+top:-2vh;
+z-index:99999;
 animation: blink 1s linear infinite;
 
 /* 其它浏览器兼容性前缀 */
