@@ -1,23 +1,101 @@
-﻿div#app {
-  font-size: 30px;
+﻿div#app  {
+  font-size:40px;
+  margin: 50vh auto;
   font-weight: lighter;
-  margin: 40vh auto;
   text-align: center;
 }
 
 
 div#app:empty::before {
   content: 'Loading...';
-  animation:loading 2s ease infinite;
+  animation:loading 3s ease infinite;
+  color:#e5f403;
+  text-shadow:
+		0px 0px 10px #FFFFFF,
+		0px 0px 20px #FFFFFF,
+		0px 0px 30px #FFFFFF;
+}
+#app.load_bg{
+	margin: 0vh auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:fixed;
+	top:0vh;
+	width:100vw;
+	height:100vh;
+	background:#000;
+}
+.load2{
+	display: block;
+	position:absolute;
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	display: inline-block;
+	background:linear-gradient(45deg,transparent,transparent 40%,#e5f403);
+	animation:load3 2s linear infinte;
 
+}
+
+@keyframes load3{
+	0%{
+		transform: roate(0deg);
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		transform: roate(360deg);
+		filter: hue-rotate(360deg);
+	}
+}
+.load2::before{
+	content: '';
+	position:absolute;
+	top:6px;
+	left:6px;
+	right:6px;
+	bottom:6px;
+	background:#000;
+	border-radius:50%;
+	z-index:100;
+}
+.load2::after{
+	content: "";
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background:#000;
+	background:linear-gradient(45deg,transparent,transparent 40%,#e5f403);
+	border-radius:50%;
+	z-index:-100;
+	filter:blur(30px);
 }
 
 @keyframes loading{
 
 0%{opacity: 1;}
+0%{filter: hue-rotate(0deg);}
 
-50%{opacity: 0;}
+50%{filter: hue-rotate(360deg);}
+50%{opacity: 0.1;}
 
 100%{opacity: 1;}
+100%{filter: hue-rotate(0deg);}
+}
+
+@keyframes loading2{
+
+0%{font-size: 30px;}
+0%{transform: rotate(25deg);}
+
+50%{font-size: 40px;}
+50%{transform: rotate(15deg);}
+
+100%{font-size: 30px;}
+100%{transform: rotate(25deg);}
 
 }
+
+
