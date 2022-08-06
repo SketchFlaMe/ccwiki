@@ -19,6 +19,10 @@ body:not(.ready) > nav {
   height: 1.2rem;
   vertical-align: middle;
 }
+@keyframes load2s1{
+	0%{filter: hue-rotate(0deg);}
+	100%{filter: hue-rotate(360deg);}
+}
 .progress {
   background-color: var(--theme-color, #42b983);
   height: 2px;
@@ -29,6 +33,7 @@ body:not(.ready) > nav {
   transition: width 0.2s, opacity 0.4s;
   width: 0%;
   z-index: 999999;
+  animation:load2s1 2s linear infinite;
 }
 .search a:hover {
   color: var(--theme-color, #42b983);

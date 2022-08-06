@@ -14,6 +14,7 @@ div#app:empty::before {
 		0px 0px 10px #FFFFFF,
 		0px 0px 20px #FFFFFF,
 		0px 0px 30px #FFFFFF;
+		z-index:200;
 }
 #app.load_bg{
 	margin: 0vh auto;
@@ -26,25 +27,28 @@ div#app:empty::before {
 	height:100vh;
 	background:#000;
 }
+
+
 .load2{
 	display: block;
 	position:absolute;
-	width:150px;
-	height:150px;
+	width:200px;
+	height:200px;
 	border-radius:50%;
 	display: inline-block;
 	background:linear-gradient(45deg,transparent,transparent 40%,#e5f403);
-	animation:load3 2s linear infinte;
+	animation:load3 2s linear infinite;
+	z-index:99;
 
 }
 
 @keyframes load3{
 	0%{
-		transform: roate(0deg);
+		transform: rotate(0deg);
 		filter: hue-rotate(0deg);
 	}
 	100%{
-		transform: roate(360deg);
+		transform: rotate(360deg);
 		filter: hue-rotate(360deg);
 	}
 }
@@ -97,5 +101,4 @@ div#app:empty::before {
 100%{transform: rotate(25deg);}
 
 }
-
 
