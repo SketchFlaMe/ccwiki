@@ -23,6 +23,10 @@ body:not(.ready) > nav {
 	0%{filter: hue-rotate(0deg);}
 	100%{filter: hue-rotate(360deg);}
 }
+.wst{
+	color=#e5f403;
+	animation:load2s1 4s linear infinite;
+}
 .progress {
   background-color: var(--theme-color, #e5f403);
   height: 2px;
