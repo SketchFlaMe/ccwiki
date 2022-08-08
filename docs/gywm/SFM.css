@@ -1,21 +1,6 @@
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
-body{
-	display:fles;
-	justify-content:center;
-	align-items:center;
-	min-height:100vh;
-	background:url("bg.png")  no-repeat center center;   /*加载背景图*/   /* 背景图不平铺 */
-   background-size:cover;  /* 让背景图基于容器大小伸缩 */
-   background-attachment:fixed;        /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */    //此条属性必须设置否则可能无效/
-   background-color:#FFFFFF;   /* 设置背景颜色，背景图加载过程中会显示背景色 */
-}
-.card{
-	top:5000px;
-	right:-500px;
+.card_sfm{
+	top:500px;
+	right:-50vw;
 	position:relative;
 	width:340px;
 	height:450px;
@@ -24,7 +9,7 @@ body{
 	transform:translate(-50%,-50%);
 
 }
-.l{
+.l_sfm{
 	position:absolute;
 	width:50px;
 	height:50px;
@@ -38,21 +23,20 @@ body{
 	transition-timing-function:ease-in-out;
 	z-index:999;
 }
-.l:hover{
+.l_sfm:hover{
 	top:0%;
 	border-radius:10px;
 	transform:translateX(-50%);
-	background:rgba(0,0,0,0);
 	width:340px;
 	height:340px;
 }
-.l:hover +.text_box {
+.l_sfm:hover +.text_box {
 	border-radius:10px;
 	top:340px;
 	width:340px;
 	height:110px;
 }
-.text_box{
+.text_box_sfm{
 	top:35%;
 	position:relative;
 	width:340px;
@@ -67,7 +51,7 @@ body{
 	transition-timing-function:ease-in-out;
 	overflow:hidden;
 }
-.box_shadow{
+.box_shadow_sfm{
 	position:absolute;
 	top:0vh;
 	right:0vw;
@@ -77,34 +61,34 @@ body{
 	z-index:-1;
 	transition-duration:0.5s;
 }
-.text_box:hover{
+.text_box_sfm:hover{
 	width:340px;
 	height:340px;
 	top:110px;
 	text-align:left;
 	background:#ffffff;
 }
-.text_box:hover +.head_circular2{
-	background:#5bcefa;
+.text_box_sfm:hover +.head_circular2_sfm{
+	background:#ff6421;
 	top:10;
 }
-.card:hover .box_shadow{
-	box-shadow: 0 0 20px #5bcefa;;
+.card_sfm:hover .box_shadow_sfm{
+	box-shadow: 0 0 20px #ff6421;;
 }
-.text_box:hover .text_name{
+.text_box_sfm:hover .text_name_sfm{
 	transform:translateY(95px);
-	color:#5bcefa;
+	color:#ff6421;
 }
-.text_box:hover .text_work{
+.text_box_sfm:hover .text_work_sfm{
 	transform:translateY(100px);
-	color:#5bcefa;
+	color:#ff6421;
 }
-.text_box:hover .a{
+.text_box_sfm:hover .a_sfm{
 	top:133px;
 	right:0px;
 	box-shadow: 0 0 10px #c4c4c4;
 }
-.l_bg{
+.l_bg_sfm{
 	position:absolute;
 	width:340px;
 	height:45%;
@@ -112,7 +96,7 @@ body{
 	overflow:hidden;
 	z-index:1;
 }
-.text_name{
+.text_name_sfm{
 	display:block;
 	font-weight:bold;
 	transform:translateY(35px);
@@ -121,7 +105,7 @@ body{
 	transition-duration:0.5s;
 	transition-timing-function:ease-in-out;
 }
-.text_work{
+.text_work_sfm{
 	display:block;
 	font-weight:bold;
 	transform:translateY(40px);
@@ -130,7 +114,7 @@ body{
 	transition-duration:0.5s;
 	transition-timing-function:ease-in-out;
 }
-.head_circular{
+.head_circular_sfm{
 	display: block;
 	position:absolute;
 	top:130px;
@@ -139,10 +123,10 @@ body{
 	width:60px;
 	height:60px;
 	border-radius:100px;
-	background:linear-gradient(180deg,transparent,transparent 30%,#5bcefa);
+	background:linear-gradient(180deg,transparent,transparent 30%,#ff6421);
 	z-index:3;
 }
-.head_circular2{
+.head_circular2_sfm{
 	display: block;
 	position:absolute;
 	top:130px;
@@ -155,7 +139,7 @@ body{
 	transition-duration:0.5s;
 	transition-timing-function:ease-in-out;
 }
-.a{
+.a_sfm{
 	display:block;
 	position:relative;
 	width:340px;
@@ -168,62 +152,33 @@ body{
 	transition-duration:0.5s;
 	transition-timing-function:ease-in-out;
 }
-.tb_bj{
+.tb_bj_sfm{
 	position:absolute;
 	width:34px;
 	height:34px;
 	top:50px;
-	right:210px
+	right:160px
 }
-.tb_bj:hover{
+.tb_bj_sfm:hover{
 	background:#FFFFFF;
 }
-.tb_bj2{
+.tb_bj2_sfm{
 	position:absolute;
 	width:34px;
 	height:34px;
 	top:50px;
 	left:210px
 }
-.tb_bj2:hover{
+.tb_bj2_sfm:hover{
 	background:#FFFFFF;
 }
-.tb_bg_a{
+.tb_bg_a_sfm{
 	position:absolute;
 	top:1px;
 	left:1px;
 }
-.tb_bg_a2{
+.tb_bg_a2_sfm{
 	position:absolute;
 	top:1px;
 	left:1px;
-}
-.sfm_logo{
-	top:50vh;
-	right:-50vw;
-	position:relative;
-	transform:translate(-50%,-50%);
-	animation:sfm-logo 1s linear 1;
-}
-@keyframes sfm-logo{
-	from{
-		opacity: 0;
-		transform:translate(-50%,-40%);
-	}
-	to{
-		opacity: 1;	
-	}
-}
-
-.card_SFM{
-	top:5000px;
-	right:-500px;
-	position:relative;
-	width:340px;
-	height:450px;
-	background:#FFFFFF;
-	border-radius:10px;
-	transform:translate(-50%,-50%);
-
-
 }
