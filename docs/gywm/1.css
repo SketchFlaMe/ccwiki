@@ -14,15 +14,14 @@ body{
    background-color:#FFFFFF;   /* 设置背景颜色，背景图加载过程中会显示背景色 */
 }
 .card{
-	top:1300px;
-	right:-50vw;
+	top:-225px;
 	position:relative;
 	width:340px;
 	height:450px;
 	background:#FFFFFF;
 	border-radius:10px;
 	transform:translateX(-50%);
-
+	pointer-event:auto;
 }
 .l{
 	position:absolute;
@@ -242,4 +241,22 @@ body{
 		opacity: 1;
 		filter: hue-rotate(360deg);
 	}
+}
+.g1{
+	position:relative;
+	top:640px;
+	right:-50vw;
+	width:10vw;
+}
+.g2{
+	position:relative;
+	top:-215px;
+	right:-50vw;
+	width:10vw;
+}
+.g3{
+	position:relative;
+	top:-1070px;
+	right:-50vw;
+	width:10vw;
 }
