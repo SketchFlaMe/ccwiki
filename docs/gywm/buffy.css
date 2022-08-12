@@ -68,19 +68,19 @@
 	background:#ffffff;
 }
 .text_box_buffy:hover +.head_circular2_buffy{
-	background:#ffed00;
+	background:#000;
 	top:10;
 }
 .card_buffy:hover .box_shadow_buffy{
-	box-shadow: 0 0 20px #ffed00;
+	box-shadow: 0 0 20px #000;
 }
 .text_box_buffy:hover .text_name_buffy{
 	transform:translateY(95px);
-	color:#ffed00;
+	color:#000;
 }
 .text_box_buffy:hover .text_work_buffy{
 	transform:translateY(100px);
-	color:#ffed00;
+	color:#000;
 }
 .text_box_buffy:hover .a_buffy{
 	top:133px;
@@ -122,7 +122,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100px;
-	background:linear-gradient(180deg,transparent,transparent 30%,#ffed00);
+	background:linear-gradient(180deg,transparent,transparent 30%,#000);
 	z-index:3;
 	transition-duration:0.1s;
 }

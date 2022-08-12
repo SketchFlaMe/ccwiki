@@ -66,19 +66,19 @@
 	background:#ffffff;
 }
 .text_box_bmwk:hover +.head_circular2_bmwk{
-	background:#a7080c;
+	background:#0066e7;
 	top:10;
 }
 .card_bmwk:hover .box_shadow_bmwk{
-	box-shadow: 0 0 20px #a7080c;
+	box-shadow: 0 0 20px #0066e7;
 }
 .text_box_bmwk:hover .text_name_bmwk{
 	transform:translateY(95px);
-	color:#a7080c;
+	color:#0066e7;
 }
 .text_box_bmwk:hover .text_work_bmwk{
 	transform:translateY(100px);
-	color:#a7080c;
+	color:#0066e7;
 }
 .text_box_bmwk:hover .a_bmwk{
 	top:133px;
@@ -120,7 +120,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100px;
-	background:linear-gradient(180deg,transparent,transparent 30%,#a7080c);
+	background:linear-gradient(180deg,transparent,transparent 30%,#0066e7);
 	z-index:3;
 	transition-duration:0.1s;
 }

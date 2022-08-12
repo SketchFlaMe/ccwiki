@@ -68,24 +68,24 @@
 	background:#ffffff;
 }
 .text_box_sky:hover +.head_circular2_sky{
-	background:#c4c4c4;
+	background:#66CCFF;
 	top:10;
 }
 .card_sky:hover .box_shadow_sky{
-	box-shadow: 0 0 20px #c4c4c4;
+	box-shadow: 0 0 20px #66CCFF;
 }
 .text_box_sky:hover .text_name_sky{
 	transform:translateY(95px);
-	color:#c4c4c4;
+	color:#66CCFF;
 }
 .text_box_sky:hover .text_work_sky{
 	transform:translateY(100px);
-	color:#c4c4c4;
+	color:#66CCFF;
 }
 .text_box_sky:hover .a_sky{
 	top:133px;
 	right:0px;
-	box-shadow: 0 0 10px #c4c4c4;
+	box-shadow: 0 0 10px #66CCFF;
 }
 .l_bg_sky{
 	position:absolute;
@@ -122,7 +122,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100px;
-	background:linear-gradient(180deg,transparent,transparent 30%,#c4c4c4);
+	background:linear-gradient(180deg,transparent,transparent 30%,#66CCFF);
 	z-index:3;
 	transition-duration:0.1s;
 }

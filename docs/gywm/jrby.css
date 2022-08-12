@@ -68,19 +68,19 @@
 	background:#ffffff;
 }
 .text_box_jrby:hover +.head_circular2_jrby{
-	background:#444444;
+	background:#c4c4c4;
 	top:10;
 }
 .card_jrby:hover .box_shadow_jrby{
-	box-shadow: 0 0 20px #444444;
+	box-shadow: 0 0 20px #c4c4c4;
 }
 .text_box_jrby:hover .text_name_jrby{
 	transform:translateY(95px);
-	color:#444444;
+	color:#c4c4c4;
 }
 .text_box_jrby:hover .text_work_jrby{
 	transform:translateY(100px);
-	color:#444444;
+	color:#c4c4c4;
 }
 .text_box_jrby:hover .a_jrby{
 	top:133px;
@@ -122,7 +122,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100px;
-	background:linear-gradient(180deg,transparent,transparent 30%,#444444);
+	background:linear-gradient(180deg,transparent,transparent 30%,#c4c4c4);
 	z-index:3;
 	transition-duration:0.1s;
 }

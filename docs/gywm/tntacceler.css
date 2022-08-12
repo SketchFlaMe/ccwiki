@@ -68,19 +68,19 @@
 	background:#ffffff;
 }
 .text_box_tntacceler:hover +.head_circular2_tntacceler{
-	background:#fec23e;
+	background:#FFAA00;
 	top:10;
 }
 .card_tntacceler:hover .box_shadow_tntacceler{
-	box-shadow: 0 0 20px #fec23e;
+	box-shadow: 0 0 20px #FFAA00;
 }
 .text_box_tntacceler:hover .text_name_tntacceler{
 	transform:translateY(95px);
-	color:#fec23e;
+	color:#FFAA00;
 }
 .text_box_tntacceler:hover .text_work_tntacceler{
 	transform:translateY(100px);
-	color:#fec23e;
+	color:#FFAA00;
 }
 .text_box_tntacceler:hover .a_tntacceler{
 	top:133px;
@@ -122,7 +122,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100px;
-	background:linear-gradient(180deg,transparent,transparent 30%,#fec23e);
+	background:linear-gradient(180deg,transparent,transparent 30%,#FFAA00);
 	z-index:3;
 	transition-duration:0.1s;
 }

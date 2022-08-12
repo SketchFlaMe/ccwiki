@@ -68,19 +68,19 @@
 	background:#ffffff;
 }
 .text_box_yzcs:hover +.head_circular2_yzcs{
-	background:#ffe4ac;
+	background:#a7080c;
 	top:10;
 }
 .card_yzcs:hover .box_shadow_yzcs{
-	box-shadow: 0 0 20px #ffe4ac;
+	box-shadow: 0 0 20px #a7080c;
 }
 .text_box_yzcs:hover .text_name_yzcs{
 	transform:translateY(95px);
-	color:#ffe4ac;
+	color:#a7080c;
 }
 .text_box_yzcs:hover .text_work_yzcs{
 	transform:translateY(100px);
-	color:#ffe4ac;
+	color:#a7080c;
 }
 .text_box_yzcs:hover .a_yzcs{
 	top:133px;
@@ -122,7 +122,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100px;
-	background:linear-gradient(180deg,transparent,transparent 30%,#ffe4ac);
+	background:linear-gradient(180deg,transparent,transparent 30%,#a7080c);
 	z-index:3;
 	transition-duration:0.1s;
 }

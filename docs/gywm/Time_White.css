@@ -68,19 +68,19 @@
 	background:#ffffff;
 }
 .text_box_timewhite:hover +.head_circular2_timewhite{
-	background:#23ff00;
+	background:#49ff30;
 	top:10;
 }
 .card_timewhite:hover .box_shadow_timewhite{
-	box-shadow: 0 0 20px #23ff00;
+	box-shadow: 0 0 20px #49ff30;
 }
 .text_box_timewhite:hover .text_name_timewhite{
 	transform:translateY(95px);
-	color:#23ff00;
+	color:#49ff30;
 }
 .text_box_timewhite:hover .text_work_timewhite{
 	transform:translateY(100px);
-	color:#23ff00;
+	color:#49ff30;
 }
 .text_box_timewhite:hover .a_timewhite{
 	top:133px;
@@ -122,7 +122,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100px;
-	background:linear-gradient(180deg,transparent,transparent 30%,#23ff00);
+	background:linear-gradient(180deg,transparent,transparent 30%,#49ff30);
 	z-index:3;
 	transition-duration:0.1s;
 }
