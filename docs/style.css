@@ -852,3 +852,67 @@ code .token {
     font-family: unifont;
     src: url(./font/unifont.ttf)
 }
+
+.markdown-section p.tip-item-foods {
+  background-color: #f8f8f8;
+  border-bottom-right-radius: 2px;
+  border-left: 4px solid #FFAA00;
+  border-top-right-radius: 2px;
+  margin: 2em 0;
+  padding: 12px 24px 12px 30px;
+  position: relative;
+}
+.markdown-section p.tip-item-foods:before {
+  background-color: #FFAA00;
+  border-radius: 100%;
+  color: #fff;
+  content: '!';
+  font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  left: -12px;
+  line-height: 20px;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  top: 14px;
+}
+.markdown-section p.tip-item-foods code {
+  background-color: #efefef;
+}
+.markdown-section p.tip-item-foods em {
+  color: #34495e;
+}
+
+.markdown-section p.tip-item-drinks {
+  background-color: #f8f8f8;
+  border-bottom-right-radius: 2px;
+  border-left: 4px solid #5bcefa;
+  border-top-right-radius: 2px;
+  margin: 2em 0;
+  padding: 12px 24px 12px 30px;
+  position: relative;
+}
+.markdown-section p.tip-item-drinks:before {
+  background-color: #5bcefa;
+  border-radius: 100%;
+  color: #fff;
+  content: '!';
+  font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  left: -12px;
+  line-height: 20px;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  top: 14px;
+}
+.markdown-section p.tip-item-drinks code {
+  background-color: #efefef;
+}
+.markdown-section p.tip-item-drinks em {
+  color: #34495e;
+}
