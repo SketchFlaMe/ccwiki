@@ -7,7 +7,6 @@ body{
 	display:fles;
 	justify-content:center;
 	align-items:center;
-	min-height:100vh;
 	background:url("bg.png")  no-repeat center center;   /*加载背景图*/   /* 背景图不平铺 */
    background-size:cover;  /* 让背景图基于容器大小伸缩 */
    background-attachment:fixed;        /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */    //此条属性必须设置否则可能无效/
@@ -277,7 +276,7 @@ body{
 .bottom0{
 	position:relative;
 	bottom:0px;
-	width:100vw-17px;
+	width:100%;
 	height:300px;
 	background:#eff1f3;
 }
@@ -288,24 +287,20 @@ body{
 	height:230px;
 	left:20vw;
 	transform:translateX(-50%);
-	background:#d4d4d4;
+	background-image: linear-gradient(0deg, #eff1f3 0, #d4d4d4 20%, #d4d4d4 80%, #eff1f3);
 
 }
 .bottom0_text1{
 	left:10vw;
-	width:10vw;
 	position:absolute;
 	z-index:1;
-	height:120px;
 	top:40px;
 	color:#777;
 }
 .bottom0_text2{
 	left:30vw;
-	width:20vw;
 	position:absolute;
 	z-index:1;
-	height:100px;
 	top:40px;
 	color:#777;
 }
@@ -325,7 +320,7 @@ body{
 	height:230px;
 	left:50vw;
 	transform:translateX(-50%);
-	background:#d4d4d4;
+	background-image: linear-gradient(0deg, #eff1f3 0, #d4d4d4 20%, #d4d4d4 80%, #eff1f3);
 
 }
 .bottom0_sfm1{
