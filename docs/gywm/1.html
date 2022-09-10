@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="jrby.css">
   <link rel="stylesheet" href="yzcs.css">
   <link rel="stylesheet" type="text/css" href="animate.min.css">
+  <link rel="stylesheet" href="loading2.css">
 </head>
 <title>测试页面</title>
 <link rel="shortcut icon" href="icon.ico" />
@@ -32,6 +33,16 @@
 			}
 		)
 	</script>-->
+<div class="load_bg">
+	<div class="loading">
+		<img class="sfm_logo" src="sfm_logo.png" alt="" width=250px>
+		<div class="progress_bar">
+			<div class="progress_bar2">
+			</div>
+		</div>
+	</div>
+</div>
+
 	<div align=center class="sfm_logo_1">
 	<img class="sfm_logo" src="sfm_logo.png" alt="">
 	<div class="sfm_logo_text" align="center"><font size="6">SketchFlaMe Studio</font></div>
@@ -237,5 +248,18 @@
 	<script type="text/javascript">
 		new WOW().init();//WOW要大写
 	</script>
+<script>
+    // 获取动画
+    let loader = document.querySelector(".load_bg");
+	let headloader = document.querySelector(".head_00");
+	let headloader2 = document.querySelector(".head_02");
+    // 加载完成事件
+    window.onload = function () {
+        // 加载完成，隐藏动画，显示内容
+        loader.style.display = "none";
+		headloader.className="head";
+		headloader2.className="head_2";
+    }
+</script>
 </body>
 </html>
