@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="loading2.css">
+</head>
+<body>
+<div class="load_bg">
+	<div class="loading">
+		<img class="sfm_logo" src="image/sfm_logo.png" alt="" width=250px>
+		<div class="progress_bar">
+			<div class="progress_bar2">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="head_02"></div>
+<div class="head_00">
+	<div class="img_logo"><img class="logo" src="image/sfm_logo.png" alt=""></div>
+	<div class="buttons">
+		<div class="null"> </div>
+		<div class="language">
+			<div class="l0"><div class="text">🌐语言</div></div>
+			<div class="l1"></div>
+			<div class="zh_cn"><div class="text">🇨🇳中文</div></div>
+			<div class="l1"></div>
+			<div class="en_us"><div class="text">🇬🇧English</div></div>
+		</div>
+		<div class="list">
+		<div class="l0"><div class="text">🛠其他网页</div></div>
+		<div class="l1"></div>
+		<div class="ccwiki"><a href="https://sfm-cc.github.io"  style="color:#777;" target="_blank" rel="noopener noreferrer"><div class="text">CCwiki</div></a></div>
+		<div class="l1"></div>
+		<div class="ccwiki"><a href="https://sfm-cc.github.io/gywm/1"  style="color:#777;" target="_blank" rel="noopener noreferrer"><div class="text">关于我们</div></a></div>
+		</div>
+	</div>
+</div>
+<img class="logo" src="image/sfm_logo.png" alt="">
+<div>施工中...</div>
+<div>加载动画测试</div>
+<img src="https://cdn.seovx.com/d/?mom=302" style="max-width: 100%; max-height: 100%;">
+<script>
+    // 获取动画
+    let loader = document.querySelector(".load_bg");
+	let headloader = document.querySelector(".head_00");
+	let headloader2 = document.querySelector(".head_02");
+    // 加载完成事件
+    window.onload = function () {
+        // 加载完成，隐藏动画，显示内容
+        loader.style.display = "none";
+		headloader.className="head";
+		headloader2.className="head_2";
+    }
+</script>
+</body>
+</html>
