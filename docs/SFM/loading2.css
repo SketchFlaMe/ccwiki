@@ -26,7 +26,7 @@
 	/*background-image: linear-gradient(90deg, #fec23e 0, #ff6421 50%, #fec23e);*/
 	border-radius:20px;
 	transform:translateX(-25px);
-	animation:loading_progress_bar 3s linear infinite;
+	animation:loading_progress_bar 2s linear infinite;
 
 }
 @keyframes loading_progress_bar{
