@@ -101,4 +101,14 @@ div#app:empty::before {
 100%{transform: rotate(25deg);}
 
 }
-
+@keyframes load4{
+	0%{
+		opacity:1;
+	}
+	50%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+	}
+}
