@@ -125,6 +125,7 @@ a:hover{
 .box_language{
 	height:80px;
 	box-shadow:-5px 5px 10px -4px #777,5px 5px 10px -4px #777;
+	border-radius:0px 0px 5px 5px;
 	display:none;
 }
 .buttons .language:hover  .zh_cn{
@@ -187,6 +188,7 @@ a:hover{
 .box_list{
 	height:80px;
 	box-shadow:-5px 5px 10px -4px #777,5px 5px 10px -4px #777;
+	border-radius:0px 0px 5px 5px;
 	display:none;
 }
 @keyframes box_list{
