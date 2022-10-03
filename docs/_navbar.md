@@ -1,3 +1,3 @@
 ﻿* [语言]
-	* [简体中文](zh-cn/简介/1)
-	* [English](en-us/简介/1)
+	* [简体中文](zh_cn/Profiles/1)
+	* [English](en_us/Profiles/1)
