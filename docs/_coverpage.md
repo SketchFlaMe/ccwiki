@@ -12,6 +12,6 @@
 [<font face="unifont" >开始阅读</font>](zh_cn/Profiles/1.md)
 [<font face="unifont" >下载资源包</font>](https://pan.baidu.com/s/1NlkSrxo01TwNBVgrCudWxQ?pwd=sfmc)
 
-![](_media/bg.png)
+![](_media/bg.jpg)
 
 
